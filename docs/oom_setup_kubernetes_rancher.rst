@@ -326,10 +326,10 @@ The output will look something like::
   INFO[0000] [dialer] Setup tunnel for host [10.12.5.191]
   INFO[0000] [dialer] Setup tunnel for host [10.12.6.195]
   INFO[0002] [network] Deploying port listener containers
-  INFO[0002] [network] Pulling image [nexus3.onap.org:10001/rancher/rke-tools:v0.1.27] on host [10.12.6.85]
-  INFO[0002] [network] Pulling image [nexus3.onap.org:10001/rancher/rke-tools:v0.1.27] on host [10.12.6.89]
-  INFO[0002] [network] Pulling image [nexus3.onap.org:10001/rancher/rke-tools:v0.1.27] on host [10.12.6.90]
-  INFO[0011] [network] Successfully pulled image [nexus3.onap.org:10001/rancher/rke-tools:v0.1.27] on host [10.12.6.89]
+  INFO[0002] [network] Pulling image [onap.blackground.io/rancher/rke-tools:v0.1.27] on host [10.12.6.85]
+  INFO[0002] [network] Pulling image [onap.blackground.io/rancher/rke-tools:v0.1.27] on host [10.12.6.89]
+  INFO[0002] [network] Pulling image [onap.blackground.io/rancher/rke-tools:v0.1.27] on host [10.12.6.90]
+  INFO[0011] [network] Successfully pulled image [onap.blackground.io/rancher/rke-tools:v0.1.27] on host [10.12.6.89]
   . . . .
   INFO[0309] [addons] Setting up Metrics Server
   INFO[0309] [addons] Saving ConfigMap for addon rke-metrics-addon to Kubernetes

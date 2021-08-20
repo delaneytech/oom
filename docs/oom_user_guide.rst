@@ -109,7 +109,7 @@ stable which should be removed to avoid confusion::
   > helm repo remove stable
 
 .. To setup the Open Source Networking Nexus repository for helm enter::
-..  > helm repo add osn 'https://nexus3.onap.org:10001/helm/helm-repo-in-nexus/master/'
+..  > helm repo add osn 'https://onap.blackground.io/helm/helm-repo-in-nexus/master/'
 
 To prepare your system for an installation of ONAP, you'll need to::
 
@@ -288,7 +288,7 @@ value for the vnfDeployment/openstack/oam_network_cidr key as shown below.
 
   # docker repositories
   repository:
-    onap: nexus3.onap.org:10001
+    onap: onap.blackground.io
     oom: oomk8s
     aai: aaionap
     filebeat: docker.elastic.co
@@ -740,8 +740,8 @@ For example, to upgrade the onap-so helm release to the latest SO container
 release v1.1.2:
 
 - Edit so values.yaml which is part of the chart
-- Change "so: nexus3.onap.org:10001/openecomp/so:v1.1.1" to
-  "so: nexus3.onap.org:10001/openecomp/so:v1.1.2"
+- Change "so: onap.blackground.io/openecomp/so:v1.1.1" to
+  "so: onap.blackground.io/openecomp/so:v1.1.2"
 - From the chart location run::
 
   > helm upgrade onap-so

@@ -23,7 +23,7 @@ global:
   loggingRepository: docker.elastic.co
   loggingImage: beats/filebeat:5.5.0
   clientImage: onap/dmaap/dbc-client:1.0.9
-  repository: nexus3.onap.org:10001
+  repository: onap.blackground.io
   busyBoxImage: busybox:1.30
   busyBoxRepository: docker.io
 

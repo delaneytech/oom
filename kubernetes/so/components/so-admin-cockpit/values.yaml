@@ -25,7 +25,7 @@
 global:
   nodePortPrefix: 302
   nodePortPrefixExt: 304
-  repository: nexus3.onap.org:10001
+  repository: onap.blackground.io
   readinessImage: onap/oom/readiness:3.0.1
   aafAgentImage: onap/aaf/aaf_agent:2.1.20
   envsubstImage: dibi/envsubst
@@ -71,7 +71,7 @@ secrets:
 #################################################################
 # Application configuration defaults.
 #################################################################
-repository: nexus3.onap.org:10001
+repository: onap.blackground.io
 image: onap/so/so-admin-cockpit:1.8.2
 pullPolicy: Always
 

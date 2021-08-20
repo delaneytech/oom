@@ -20,7 +20,7 @@ global:
   loggingImage: beats/filebeat:5.5.0
   busyboxRepository: registry.hub.docker.com
   busyboxImage: library/busybox:latest
-  repository: "nexus3.onap.org:10001"
+  repository: "onap.blackground.io"
   CMPv2CertManagerIntegration: false
 
 namespace: onap

@@ -29,7 +29,7 @@ global:
   # repository but ONLY if your repository mirrors all ONAP
   # docker images. This includes all images from dockerhub and
   # any other repository that hosts images for ONAP components.
-  #repository: nexus3.onap.org:10001
+  #repository: onap.blackground.io
   repositoryCred:
     user: docker
     password: docker

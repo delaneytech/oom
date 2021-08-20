@@ -21,7 +21,7 @@ global:
     enabled: true
   # Standard OOM
   pullPolicy: "Always"
-  repository: "nexus3.onap.org:10001"
+  repository: "onap.blackground.io"
   offlineDeploymentBuild: false
 
 
@@ -37,7 +37,7 @@ service:
 certificateGenerationImage: onap/integration-java11:7.2.0
 
 # Deployment configuration
-repository: "nexus3.onap.org:10001"
+repository: "onap.blackground.io"
 image: onap/org.onap.oom.platform.cert-service.oom-certservice-api:2.3.3
 pullPolicy: Always
 replicaCount: 1

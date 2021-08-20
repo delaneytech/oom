@@ -17,7 +17,7 @@
 #################################################################
 global:
   nodePortPrefix: 302
-  repository: nexus3.onap.org:10001
+  repository: onap.blackground.io
 
 #################################################################
 # Application configuration defaults.

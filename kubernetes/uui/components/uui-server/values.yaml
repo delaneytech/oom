@@ -24,7 +24,7 @@ subChartsOnly:
 flavor: small
 
 # application image
-repository: nexus3.onap.org:10001
+repository: onap.blackground.io
 image: onap/usecase-ui-server:4.0.0
 pullPolicy: Always
 

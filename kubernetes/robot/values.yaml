@@ -21,7 +21,7 @@ global: # global defaults
   persistence: {}
 
 # application image
-repository: nexus3.onap.org:10001
+repository: onap.blackground.io
 image: onap/testsuite:1.7.3
 pullPolicy: Always
 

@@ -65,7 +65,7 @@ subChartsOnly:
   enabled: true
 
 # application image
-repository: nexus3.onap.org:10001
+repository: onap.blackground.io
 image: onap/externalapi/nbi:8.0.1
 pullPolicy: IfNotPresent
 sdc_authorization: Basic YWFpOktwOGJKNFNYc3pNMFdYbGhhazNlSGxjc2UyZ0F3ODR2YW9HR21KdlV5MlU=

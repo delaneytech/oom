@@ -9,7 +9,7 @@ mkdir -p /etc/systemd/system/docker.service.d/
 cat > /etc/systemd/system/docker.service.d/docker.conf << EOF
 [Service]
 ExecStart=
-ExecStart=/usr/bin/dockerd -H fd:// --insecure-registry=nexus3.onap.org:10001
+ExecStart=/usr/bin/dockerd -H fd:// --insecure-registry=onap.blackground.io
 EOF
 
 sudo usermod -aG docker ubuntu
@@ -23,7 +23,7 @@ HOSTNAME=`hostname`
 
 echo "$IP_ADDR $HOSTNAME" >> /etc/hosts
 
-docker login -u docker -p docker nexus3.onap.org:10001
+docker login -u docker -p docker onap.blackground.io
 
 sudo apt-get install make -y
 

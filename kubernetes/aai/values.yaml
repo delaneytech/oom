@@ -20,7 +20,7 @@
 # Declare variables to be passed into your templates.
 global: # global defaults
   nodePortPrefix: 302
-  repository: nexus3.onap.org:10001
+  repository: onap.blackground.io
   dockerhubRepository: docker.io
   busyboxImage: busybox
 

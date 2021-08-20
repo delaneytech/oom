@@ -13,7 +13,7 @@ Usage: $0 [PARAMs]
                       [in case no path is provided then is will scan current directories for values.yml]
 -r (Repository)     : name of image repository
                       [format [repository name/url]:(port)]
-                      [in case no repository is provided then defualt image repository will be nexus3.onap.org:10001]
+                      [in case no repository is provided then defualt image repository will be onap.blackground.io]
 -u (User)           : user name for login
                       [in case no user name is provided then default user will be docker]
 -p (Password)       : password for login
@@ -59,7 +59,7 @@ IMAGE_TEXT="image"
 IMAGE_VERSION_TEXT="Version"
 LOCATION="."
 VALUES_FILE_NAME="values.yaml"
-IMAGE_REPOSITORY="nexus3.onap.org:10001"
+IMAGE_REPOSITORY="onap.blackground.io"
 USER_NAME="docker"
 PASSWORD="docker"
 

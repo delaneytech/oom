@@ -15,7 +15,7 @@
 
 global:
   # Repositories used
-  repository: nexus3.onap.org:10001
+  repository: onap.blackground.io
   dockerHubRepository: docker.io
   elasticRepository: docker.elastic.co
   googleK8sRepository: k8s.gcr.io

@@ -37,7 +37,7 @@ global:
 # Application configuration defaults.
 #################################################################
 # application image
-repository: nexus3.onap.org:10001
+repository: onap.blackground.io
 image: onap/sdc-cassandra:1.8.5
 cassandraInitImage: onap/sdc-cassandra-init:1.8.5
 pullPolicy: Always

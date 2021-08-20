@@ -36,7 +36,7 @@ tests:
           content: mariadb-galera
       - equal:
           path: spec.template.spec.initContainers[0].image
-          value: nexus3.onap.org:10001/onap/oom/readiness:3.0.1
+          value: onap.blackground.io/onap/oom/readiness:3.0.1
       - equal:
           path: spec.template.spec.initContainers[0].imagePullPolicy
           value: IfNotPresent
@@ -47,7 +47,7 @@ tests:
           pattern: mariadb-init
       - equal:
           path: spec.template.spec.containers[0].image
-          value: nexus3.onap.org:10001/mariadb:10.1.38
+          value: onap.blackground.io/mariadb:10.1.38
       - equal:
           path: spec.template.spec.containers[0].imagePullPolicy
           value: IfNotPresent

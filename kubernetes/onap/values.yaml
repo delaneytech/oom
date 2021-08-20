@@ -43,7 +43,7 @@ global:
   # Four different repositories are used
   # You can change individually these repositories to ones that will serve the
   # right images. If credentials are needed for one of them, see below.
-  repository: nexus3.onap.org:10001
+  repository: onap.blackground.io
   dockerHubRepository: &dockerHubRepository docker.io
   elasticRepository: &elasticRepository docker.elastic.co
   googleK8sRepository: k8s.gcr.io

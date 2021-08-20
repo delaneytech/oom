@@ -23,7 +23,7 @@ global:
 # Application configuration defaults.
 #################################################################
 # application image
-repository: nexus3.onap.org:10001
+repository: onap.blackground.io
 image: onap/multicloud/openstack-starlingx:1.5.5
 pullPolicy: Always
 

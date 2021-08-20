@@ -37,7 +37,7 @@ tests:
           value: nbi
       - equal:
           path: spec.template.spec.containers[0].image
-          value: nexus3.onap.org:10001/onap/externalapi/nbi:5.0.1
+          value: onap.blackground.io/onap/externalapi/nbi:5.0.1
       - equal:
           path: spec.template.spec.containers[0].imagePullPolicy
           value: IfNotPresent
